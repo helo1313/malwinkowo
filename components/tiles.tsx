@@ -3,7 +3,7 @@ import Tile from "./tile";
 
 export default function Tiles() {
   return (
-    <div className="grid grid-cols-5 gap-6">
+    <div className="grid grid-cols-2 lg:grid-cols-5 gap-6">
       <Tile day={1} image="/images/1.JPG" href="/day/1-ubwad" />
       <Tile day={2} image="/images/20.JPG" href="/day/2-iniwa" />
       <Tile day={3} image="/images/3.JPG" href="/day/3-aiwhd" />
