@@ -26,6 +26,7 @@ export default function Tile({ day, image, href }: TileProps) {
             src={image}
             alt={`Day ${day}`}
             fill
+            width={150}
             className="blur-effect absolute top-0 left-0 w-full h-full object-cover"
           />
           <p className="text-white text-4xl font-bold relative z-10">
@@ -38,6 +39,8 @@ export default function Tile({ day, image, href }: TileProps) {
             src={image}
             alt={`Day ${day}`}
             fill
+            width={150}
+            height={150}
             className="disabled-effect absolute top-0 left-0 w-full h-full"
           />
           <p className="text-white text-4xl font-bold relative z-10">
